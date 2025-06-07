@@ -81,7 +81,7 @@ public class Main {
             System.out.println(numbers[i]);
         }
         */
-        Scanner scan=new Scanner(System.in);
+       /* Scanner scan=new Scanner(System.in);
         System.out.println("Birinci sayıyı gir : ");
         int number1= scan.nextInt();
         System.out.println("İkinci sayıyı gir : ");
@@ -90,6 +90,15 @@ public class Main {
         int number3= scan.nextInt();
         int enbüyüksayı= Math.max(number1, Math.max(number3,number2));
         System.out.println("En Büyük Sayı : "+ enbüyüksayı);
+*/
+        Scanner scan= new Scanner(System.in);
+        System.out.println("Pozitif bir değer giriniz : ");
+        int a =scan.nextInt();
+        int toplam=0;
+        for (int i=1; i<a; i++){
+            toplam+=i;
+        }
+        System.out.println("1'den "+ a +" ya kadar olan sayıların toplamı :" + toplam);
 
     }
 }
