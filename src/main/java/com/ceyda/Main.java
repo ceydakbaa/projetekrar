@@ -46,7 +46,7 @@ public class Main {
         double bolme= number2/number1;
         System.out.println("Bölme :"+ bolme);
 */
-        Scanner scan= new Scanner(System.in);
+        /*Scanner scan= new Scanner(System.in);
         System.out.println("Sayı Giriniz :");
         int number= scan.nextInt();
         if (number>0){
@@ -55,6 +55,15 @@ public class Main {
             System.out.println("Sayı Negatiftir.");
         }else{
             System.out.println("Sayı Sıfıra Eşittir.");
+        }
+         */
+        Scanner scan= new Scanner(System.in);
+        System.out.println("Sayı giriniz :");
+        int number= scan.nextInt();
+        if(number %2==0){
+            System.out.println("Sayı çifttir.");
+        }else{
+            System.out.println("Sayı tektir.");
         }
     }
 }
