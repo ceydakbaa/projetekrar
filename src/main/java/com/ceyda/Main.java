@@ -57,13 +57,17 @@ public class Main {
             System.out.println("Sayı Sıfıra Eşittir.");
         }
          */
-        Scanner scan= new Scanner(System.in);
+        /*Scanner scan= new Scanner(System.in);
         System.out.println("Sayı giriniz :");
         int number= scan.nextInt();
         if(number %2==0){
             System.out.println("Sayı çifttir.");
         }else{
             System.out.println("Sayı tektir.");
+        }
+       */
+        for(int i =1; i<=100; i++){
+            System.out.println(i);
         }
     }
 }
