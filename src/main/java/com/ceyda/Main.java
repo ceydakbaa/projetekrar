@@ -66,8 +66,14 @@ public class Main {
             System.out.println("Sayı tektir.");
         }
        */
-        for(int i =1; i<=100; i++){
+        /*for(int i =1; i<=100; i++){
             System.out.println(i);
+        }
+         */
+        int i=100;
+        while (i>=0){
+            System.out.println(i);
+            i--;
         }
     }
 }
