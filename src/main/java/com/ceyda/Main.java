@@ -24,7 +24,7 @@ public class Main {
         sayı=4;
         System.out.println("final int sayı :"+ sayı);
 */
-        Scanner scan= new Scanner(System.in);
+        /*Scanner scan= new Scanner(System.in);
         System.out.println("Lütfen isminizi giriniz :");
         String isim = scan.nextLine();
         System.out.println("Lütfen yaşınızı giriniz :");
@@ -33,7 +33,18 @@ public class Main {
 
         System.out.println("Merhabalar, ben "+ isim + " yaşım "+ yas);
         scan.close();
+*/
+        double number1=8;
+        double number2=12;
+
+        double cıkarma= number2-number1;
+        System.out.println("Çıkarma :"+ cıkarma);
+        double toplama= number1+number2;
+        System.out.println("Toplama :"+ toplama);
+        double carpma=number1*number2;
+        System.out.println("Çarpma :"+ carpma);
+        double bolme= number2/number1;
+        System.out.println("Bölme :"+ bolme);
 
     }
 }
-
