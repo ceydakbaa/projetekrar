@@ -34,7 +34,7 @@ public class Main {
         System.out.println("Merhabalar, ben "+ isim + " yaşım "+ yas);
         scan.close();
 */
-        double number1=8;
+        /*double number1=8;
         double number2=12;
 
         double cıkarma= number2-number1;
@@ -45,6 +45,16 @@ public class Main {
         System.out.println("Çarpma :"+ carpma);
         double bolme= number2/number1;
         System.out.println("Bölme :"+ bolme);
-
+*/
+        Scanner scan= new Scanner(System.in);
+        System.out.println("Sayı Giriniz :");
+        int number= scan.nextInt();
+        if (number>0){
+                System.out.println("Sayı Pozitiftir.");
+        }else if(number<0){
+            System.out.println("Sayı Negatiftir.");
+        }else{
+            System.out.println("Sayı Sıfıra Eşittir.");
+        }
     }
 }
