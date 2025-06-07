@@ -1,11 +1,13 @@
 package com.ceyda;
 
+import java.util.Scanner;
+
 //TIP To <b>Run</b> code, press <shortcut actionId="Run"/> or
 // click the <icon src="AllIcons.Actions.Execute"/> icon in the gutter.
 public class Main {
     public static void main(String[] args) {
        // Java Veri Tipleri Projesi
-        int i = 10;
+       /* int i = 10;
         System.out.println("int i :"+ 10);
 
         double number= 9.8;
@@ -21,8 +23,17 @@ public class Main {
         final int sayı;
         sayı=4;
         System.out.println("final int sayı :"+ sayı);
+*/
+        Scanner scan= new Scanner(System.in);
+        System.out.println("Lütfen isminizi giriniz :");
+        String isim = scan.nextLine();
+        System.out.println("Lütfen yaşınızı giriniz :");
+        int yas = scan.nextInt();
 
 
+        System.out.println("Merhabalar, ben "+ isim + " yaşım "+ yas);
+        scan.close();
 
     }
 }
+
