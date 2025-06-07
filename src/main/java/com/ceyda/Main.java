@@ -1,5 +1,6 @@
 package com.ceyda;
 
+import java.lang.classfile.instruction.NewMultiArrayInstruction;
 import java.util.Scanner;
 
 //TIP To <b>Run</b> code, press <shortcut actionId="Run"/> or
@@ -75,9 +76,20 @@ public class Main {
             System.out.println(i);
             i--;
          */
-        int [] numbers={3,5,7,9,11};
+       /* int [] numbers={3,5,7,9,11};
         for(int i=0; i<5; i++){
             System.out.println(numbers[i]);
         }
+        */
+        Scanner scan=new Scanner(System.in);
+        System.out.println("Birinci sayıyı gir : ");
+        int number1= scan.nextInt();
+        System.out.println("İkinci sayıyı gir : ");
+        int number2= scan.nextInt();
+        System.out.println("Üçüncü sayıyı gir : ");
+        int number3= scan.nextInt();
+        int enbüyüksayı= Math.max(number1, Math.max(number3,number2));
+        System.out.println("En Büyük Sayı : "+ enbüyüksayı);
+
     }
 }
