@@ -70,10 +70,14 @@ public class Main {
             System.out.println(i);
         }
          */
-        int i=100;
+        /*int i=100;
         while (i>=0){
             System.out.println(i);
             i--;
+         */
+        int [] numbers={3,5,7,9,11};
+        for(int i=0; i<5; i++){
+            System.out.println(numbers[i]);
         }
     }
 }
